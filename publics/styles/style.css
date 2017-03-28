@@ -1,0 +1,56 @@
+body {
+    margin:0;
+}
+img, form, a, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+.green-header {
+    width: 100%;
+    height: 64px;
+    background-color: #079894;
+}
+.ic-menu {
+    float:left;
+    padding: 26px 20px 20px 24px;
+}
+.merck-logo{
+    padding: 17px 15px 15px 0;
+}
+.header-stick{
+    padding: 18px 0;
+}
+.test-name{
+    display: inline-block;
+    width: 86px;
+    height: 14px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 3px;
+    padding: 25px 0 25px 17px;
+}
+.user-name{
+    float:right;
+}
+.to-profile-icon{
+    float:right;
+}
+.user-name{
+    width: 83px;
+    height: 11px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    display: inline-block;
+}
+.to-profile-icon{
+    padding: 18px 31px 18px 0;
+}
+
