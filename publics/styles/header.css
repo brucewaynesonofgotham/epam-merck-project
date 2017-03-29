@@ -1,0 +1,88 @@
+.green-header {
+    width: 100%;
+    height: 64px;
+    background-color: #079894;
+}
+.ic-menu {
+    float:left;
+    padding: 26px 20px 20px 24px;
+}
+.merck-logo{
+    padding: 17px 15px 15px 0;
+}
+.header-stick{
+    padding: 18px 0;
+}
+.test-name{
+    display: inline-block;
+    width: 86px;
+    height: 14px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 3px;
+    padding: 32px 0 18px 17px;
+    vertical-align: top;
+}
+.user-name{
+    float:right;
+    width: 90px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    display: inline-block;
+    padding-right: 7px;
+    position: relative;
+    top: 20px;
+}
+.to-profile-icon{
+    float:right;
+    padding: 18px 31px 18px 0;
+}
+.white-header{
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(191, 191, 191, 0.25);
+    background-color: #ffffff;
+}
+.arrow-left-to-input-page{
+    margin: 17px 0 19px 25px;
+}
+.to-input-page{
+    width: 112px;
+    height: 20px;
+    opacity: 0.87;
+    color: #079894;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 22px 0 7px 10px;
+}
+.results{
+    width: 215px;
+    height: 20px;
+    opacity: 0.87;
+    color: #48484a;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 22px 0 7px 20px;
+}
+.hren-znaet-chto{
+    float:right;
+    margin: 16px 0px 16px 0;
+}
+.ic-sysbar-menu{
+    float: right;
+    margin: 16px 180px 16px 18px;
+}
