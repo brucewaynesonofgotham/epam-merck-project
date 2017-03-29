@@ -1,16 +1,15 @@
 @import url("/publics/styles/header.css");
+@import url("/publics/styles/toolbar.css");
 body {
     margin:0;
+    background-color: #fafafa;
 }
-img, form, a, input, main,
-.toolbox-list-first-level{
+img, form, a, input, main
+{
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
-}
-main{
-    background-color: #fafafa;
 }
 a {
     text-decoration: none;
