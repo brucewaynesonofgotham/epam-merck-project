@@ -1,5 +1,7 @@
-@import url("/publics/styles/header.css");
-@import url("/publics/styles/toolbar.css");
+@import "header.css";
+@import "toolbar.css";
+@import "main.css";
+@import "bottom.css";
 body {
     margin:0;
     background-color: #fafafa;

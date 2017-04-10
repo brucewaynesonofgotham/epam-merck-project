@@ -8,21 +8,19 @@
     padding: 26px 20px 20px 24px;
 }
 .merck-logo{
-    padding: 17px 15px 15px 0;
+    padding: 17px 13px 15px 0;
 }
 .header-stick{
     padding: 18px 0;
 }
 .test-name{
     display: inline-block;
-    width: 86px;
     height: 14px;
     color: #ffffff;
     font-family: Arial;
     font-size: 18px;
     font-weight: 400;
-    line-height: 3px;
-    padding: 32px 0 18px 17px;
+    padding: 25px 0 25px 15px;
     vertical-align: top;
 }
 .user-name{
@@ -50,39 +48,34 @@
     background-color: #ffffff;
 }
 .arrow-left-to-input-page{
-    margin: 17px 0 19px 25px;
+    margin: 18px 0 18px 25px;
 }
 .to-input-page{
     width: 112px;
-    height: 20px;
+    height: 14px;
     opacity: 0.87;
     color: #079894;
     font-family: Arial;
     font-size: 14px;
     font-weight: 400;
-    line-height: 3px;
     display: inline-block;
     vertical-align: top;
-    margin: 22px 0 7px 10px;
+    margin: 17px 0 17px 6px;
 }
 .results{
-    width: 215px;
-    height: 20px;
+    height: 15px;
     opacity: 0.87;
     color: #48484a;
     font-family: Arial;
     font-size: 20px;
     font-weight: 400;
-    line-height: 3px;
     display: inline-block;
     vertical-align: top;
-    margin: 22px 0 7px 20px;
-}
-.hren-znaet-chto{
-    float:right;
-    margin: 16px 0px 16px 0;
+    margin: 16px 0 17px 20px;
 }
 .ic-sysbar-menu{
     float: right;
+    height: 16px;
     margin: 16px 180px 16px 18px;
+    opacity: 0.54;
 }

@@ -1,0 +1,131 @@
+.search-result{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 24px 0 0 23px;
+    max-width: 1175px;
+    min-width: 360px;
+
+}
+.result-item-description{
+    height: 100%;
+    width: 293px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    border: 1px solid rgba(191, 191, 191, 0.25);
+    display: inline-block;
+    margin-bottom: 23px;
+
+}
+.result-item-header{
+    height: 66px;
+}
+.article-name-style{
+    opacity: 0.87;
+    color: #010101;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    top:14px;
+    left:15px;
+
+}
+.result-checkbox{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:17px;
+    left:16px;
+}
+.number-of-result{
+    opacity: 0.54;
+    color: #010101;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 45px;
+}
+.chemistry-content{
+    border-top: 1px solid rgba(191, 191, 191, 0.25);
+}
+.chemistry-content > img{
+    display: inline-block;
+    padding: 12px 108px 16px 90px;
+}
+.chemistry-content > a{
+    opacity: 0.87;
+    color: #079894;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    bottom: 6px;
+}
+.result-toolbox{
+    height: 40px;
+    background-color: #fafafa;
+    border-top: 1px solid rgba(191, 191, 191, 0.25);
+}
+
+.result-toolbox > img,
+.result-toolbox > span
+{
+    display: inline-block;
+}
+
+.result-toolbox-change{
+    margin: 11px 0 0 73px;
+}
+.l-pluse{
+    opacity: 0.54;
+    color: #000000;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 22px;
+}
+.result-toolbox-left-chevron{
+    margin-left: 19px;
+}
+.result-toolbox-right-chevron{
+    margin-left: 22px;
+}
+.result-item-description > ul{
+    margin:0;
+    padding:0;
+}
+.result-item-description > ul > li {
+    height: 40px;
+    border-top: 1px solid rgba(191, 191, 191, 0.25);
+    background-color: #ffffff;
+    list-style-type: none;
+}
+.result-item-description > ul > li > span{
+    opacity: 0.54;
+    color: #010101;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+}
+.chemistry-content-list-left-side{
+    float: left;
+    margin: 16px 0 0 15px;
+}
+.chemistry-content-list-right-side{
+    float: right;
+    margin: 16px 21px 0 0;
+}
+

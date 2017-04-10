@@ -2,12 +2,22 @@
     width: 75px;
     height: 100%;
     padding: 0;
-    margin: 24px 0 0 156px;
+    margin: 0 0 0 156px;
     box-shadow: 1px 7px 9px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     border: 1px solid rgba(191, 191, 191, 0.25);
     background-color: #ffffff;
+    display: inline-block;
+    float: left;
 }
+main:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 .toolbox ul{
     margin:0;
     padding: 0;
@@ -17,7 +27,7 @@
     padding:0;
 }
 .toolbox > ul > li > a{
-    padding-left: 10px;
+    padding-left: 13px;
     color: #010101;
     opacity: 0.54;
 }
@@ -44,6 +54,9 @@
     margin: 0;
     border-bottom: 1px solid #d9d9d9;
     list-style-type: none;
+}
+.toolbox-list-first-level  li:last-child{
+    border-bottom: none;
 }
 .toolbox > ul > li > ul > li{
     padding:0;
