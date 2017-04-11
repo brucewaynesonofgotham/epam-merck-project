@@ -16,3 +16,45 @@ img, form, a, input, main
 a {
     text-decoration: none;
 }
+@media all and (max-width: 1296px) {
+    .ic-sysbar-menu{
+        margin-right: 50px;
+    }
+}
+
+@media all and (max-width: 1134px) {
+    .ic-sysbar-menu{
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 839px) {
+    .toolbox{
+        width: 75px;
+        height: 100%;
+        padding: 0;
+        margin: 0 0 0 20px;
+        box-shadow: 1px 7px 9px rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+        border: 1px solid rgba(191, 191, 191, 0.25);
+        background-color: #ffffff;
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media all and (max-width: 478px) {
+    .user-name{
+        display: none;
+    }
+    .results{
+        display: none;
+    }
+    .toolbox{
+        display: none;
+    }
+    .search-result{
+        float: left;
+    }
+}
+
