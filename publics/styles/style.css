@@ -2,9 +2,13 @@
 @import "toolbar.css";
 @import "main.css";
 @import "bottom.css";
+html{
+    overflow-x: hidden;
+}
 body {
     margin:0;
     background-color: #fafafa;
+    width: 100%;
 }
 img, form, a, input, main
 {

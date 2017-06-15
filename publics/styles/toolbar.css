@@ -31,7 +31,7 @@ main:after{
     color: #010101;
     opacity: 0.54;
 }
-.toolbox > ul > li > a:after{
+.toolbox-ul-parents:after{
     font-family: FontAwesome;
     content: '\f077';
     margin-right: 5px;
@@ -63,7 +63,20 @@ main:after{
     border-bottom: none;
 }
 
+.toolbox > ul > li > ul > li:hover{
+    background-color: #defda8;
+}
 
+.toggle-angle:after{
+    font-family: FontAwesome;
+    content: '\f078';
+    margin-right: 5px;
+    position: relative;
+    right: 1px;
+    float: right;
+    font-size:xx-small;
+    opacity: 0.54;
+}
 /*
 .toolbox-list-first-level > li:after{
 

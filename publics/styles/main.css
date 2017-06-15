@@ -17,6 +17,8 @@
     border: 1px solid rgba(191, 191, 191, 0.25);
     display: inline-block;
     margin-bottom: 23px;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
 
 }
 .result-item-header{
@@ -41,7 +43,24 @@
     position: relative;
     top:17px;
     left:16px;
+    width:18px;
+    height: 18px;
+    background-image: url('/publics/img/search-result/checkbox.png');
+    transition: background-image 500ms;
 }
+
+.empty-checkbox{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:17px;
+    left:16px;
+    width:18px;
+    height: 18px;
+    background-image: url('/publics/img/search-result/empty-checkbox.png');
+    transition: background-image 500ms;
+}
+
 .number-of-result{
     opacity: 0.54;
     color: #010101;
@@ -100,6 +119,10 @@
 .result-toolbox-left-chevron{
     margin-left: 19px;
 }
+.scale:hover{
+    transform: scale(1.1,1.1);
+}
+
 .result-toolbox-right-chevron{
     margin-left: 22px;
 }
